@@ -84,7 +84,18 @@ int main(){
     printf("|| 3. Macchiato %d %.2f    ||\n", macchiato, total_cost_m);
     printf("|| Total Items: %d          ||\n", total_items);
     printf("|| Total Payment: %c %.2f  ||\n", currency, total_payment);
-    printf("======== Thank You ========\n");
+    printf("========= Thank You =========\n");
+
+    // OUTPUT
+    /*
+    ====== SBACKS Payment ======
+    || 1. Americano 1 5.99     ||
+    || 2. Caffe Latte 1 10.50  ||
+    || 3. Macchiato 1 12.00    ||
+    || Total Items: 3          ||
+    || Total Payment: $ 23.98  ||
+    ========= Thank You =========
+    */
 
     return 0;
 }
