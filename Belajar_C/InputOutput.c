@@ -5,6 +5,8 @@ int main(){
     int umur;
     char name[100];
     char domisili[50];
+
+    // Scanf -> Untuk mengscan input dari user
     
     printf("Input your name: ");
     scanf("%s", name);
