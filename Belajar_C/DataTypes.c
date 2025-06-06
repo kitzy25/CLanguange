@@ -97,5 +97,9 @@ int main(){
     ========= Thank You =========
     */
 
+    // STRING
+    char str[] = "Hello World!"; // [] -> untuk menyimpan bytes
+    printf("%s", str); // Format Specifier untuk string -> %s
+
     return 0;
 }
