@@ -7,6 +7,8 @@ int main(){
     char domisili[50];
 
     // Scanf -> Untuk mengscan input dari user
+    // Apabila ingin mengprint 1 kalimat dari scanf gunakan format specifier "%[^\n]"
+    // dan jika sebuah text ingin ada spasi " %[^\n]"
     
     printf("Input your name: ");
     scanf("%s", name);
