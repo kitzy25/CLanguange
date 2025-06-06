@@ -55,7 +55,7 @@ int main(){
     
     Contoh Explicit Conversion:
     float sum = (float) 5 / 2 -> secara manual kita mengubah niali int ke desimal atau float
-    printf("%f", sun) -> otomatis format specifiernya menggunakan %f
+    printf("%f", sum) -> otomatis format specifiernya menggunakan %f
     */
       
     // CONTOH PENGGUNAAN TIPE DATA
